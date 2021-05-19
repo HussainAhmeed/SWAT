@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-cd $HOME/TshAkEx
+cd $HOME/SWAT
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Tshake
+chmod +x SWAT
 chmod +x install.sh
 chmod +x ts
 ./ts
@@ -11,7 +11,7 @@ chmod +x ts
 get() {
 rm -fr Tshake.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/TEAMTshakeX/TshAkEx/master/Tshake.lua"
+wget "https://raw.githubusercontent.com/HussainAhmeed/SWAT/master/SWAT.lua"
 lua start.lua
 }
 installall(){
@@ -48,7 +48,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd TshAkEx
+cd SWAT
 rm -rf luarocks*
 lua start.lua
 
