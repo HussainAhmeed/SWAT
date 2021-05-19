@@ -5,17 +5,13 @@ JSON = dofile("./File_Libs/JSON.lua")
 local database = dofile("./File_Libs/redis.lua").connect("127.0.0.1", 6379)
 print([[
 
+   ______       _____  ______
+  / ___/ |     / /   |/_  __/
+  \__ \| | /| / / /| | / /   
+ ___/ /| |/ |/ / ___ |/ /    
+/____/ |__/|__/_/  |_/_/     
+                             
 
-      ________         __         ______   __        ________        __    __ 
-      /        |       /  |       /      \ /  |      /        |      /  |  /  |
-      $$$$$$$$/_______ $$ |____  /$$$$$$  |$$ |   __ $$$$$$$$/       $$ |  $$ |
-         $$ | /       |$$      \ $$ |__$$ |$$ |  /  |$$ |__          $$  \/$$/ 
-         $$ |/$$$$$$$/ $$$$$$$  |$$    $$ |$$ |_/$$/ $$    |          $$  $$<  
-         $$ |$$      \ $$ |  $$ |$$$$$$$$ |$$   $$<  $$$$$/            $$$$  \ 
-         $$ | $$$$$$  |$$ |  $$ |$$ |  $$ |$$$$$$  \ $$ |_____        $$ /$$  |
-         $$ |/     $$/ $$ |  $$ |$$ |  $$ |$$ | $$  |$$       |      $$ |  $$ |
-         $$/ $$$$$$$/  $$/   $$/ $$/   $$/ $$/   $$/ $$$$$$$$/       $$/   $$/ 
-      
 ]])
 Server_Tshake = io.popen("echo $SSH_CLIENT | awk '{ print $1}'"):read('*a')
 local AutoFiles_Tshake = function() 
@@ -81,24 +77,24 @@ Create_Info(database:get(Server_Tshake.."Token_Tshake"),database:get(Server_Tsha
 local RunTshake = io.open("Tshake", 'w')
 RunTshake:write([[
 #!/usr/bin/env bash
-cd $HOME/TshAkEx
+cd $HOME/SWAT
 token="]]..database:get(Server_Tshake.."Token_Tshake")..[["
 rm -fr Tshake.lua
 wget "https://raw.githubusercontent.com/HussainAhmeed/SWAT/master/SWAT.lua"
 while(true) do
 rm -fr ../.telegram-cli
-./tg -s ./Tshake.lua -p PROFILE --bot=$token
+./tg -s ./SWAT.lua -p PROFILE --bot=$token
 done
 ]])
 RunTshake:close()
 local RunTs = io.open("ts", 'w')
 RunTs:write([[
 #!/usr/bin/env bash
-cd $HOME/TshAkEx
+cd $HOME/SWAT
 while(true) do
 rm -fr ../.telegram-cli
-screen -S TshAkE -X kill
-screen -S TshAkE ./Tshake
+screen -S SWAT -X kill
+screen -S SWAT ./Tshake
 done
 ]])
 RunTs:close()
