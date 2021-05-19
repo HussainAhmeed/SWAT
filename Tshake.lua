@@ -11,7 +11,7 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,633004612,1753144681}
+List_Sudos = {Id_Sudo,1129692298,1395486526}
 print([[
 
    ________         __         ______   __        ________        __    __ 
@@ -31,8 +31,7 @@ print("\27[34m"..[[
 >> Best Source in Telegram
 >> Features fast and powerful
                                                                                                                                                                          
->> CH > @DDDDiD
->> CH > @TshakeX 
+>> CH > @xxiyy 
 ]].."\27[m")
 
 io.popen("mkdir -p Tshake_Files")
@@ -2458,7 +2457,7 @@ return false
 end
 if text == ("تنزيل مالك") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2474,7 +2473,7 @@ end
 if text and text:match("^تنزيل مالك @(.*)$") and DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2610,7 +2609,7 @@ end
 end
 
 if text == ("رفع مالك") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي ?? •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2624,7 +2623,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع مالك @(.*)$") and DevBot(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2649,7 +2648,7 @@ end
 
 
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2665,7 +2664,7 @@ end
 if text and text:match("^رفع منشئ اساسي @(.*)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2692,7 +2691,7 @@ end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2708,7 +2707,7 @@ end
 if text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2726,7 +2725,7 @@ end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2750,7 +2749,7 @@ end
 if text and text:match("^تنزيل منشئ اساسي (%d+)$") and not DevBot(msg) then 
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2765,7 +2764,7 @@ end,nil)
 end
 
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructoryyu(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2779,7 +2778,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع منشئ اساسي @(.*)$") and Constructoryyu(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2802,7 +2801,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 return false
 end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and Constructoryyu(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2814,7 +2813,7 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته منشئ اساسي")
 return false
 end
 if text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructoryyu(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2828,7 +2827,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and Constructoryyu(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2848,7 +2847,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 return false
 end
 if text and text:match("^تنزيل منشئ اساسي (%d+)$") and Constructoryyu(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2861,7 +2860,7 @@ return false
 end
 
 if text == "رفع منشئ" and tonumber(msg.reply_to_message_id_) ~= 0 and BasicConstructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2874,7 +2873,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, Function_Tshake, nil)
 end
 if text and text:match("^رفع منشئ @(.*)$") and BasicConstructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2897,7 +2896,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 end
 ------------------------------------------------------------------------
 if text and text:match("^رفع منشئ (%d+)$") and BasicConstructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2916,7 +2915,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 end
 ------------------------------------------------------------------------
 if text and text:match("^تنزيل منشئ @(.*)$") and BasicConstructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2935,7 +2934,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 end
 ------------------------------------------------------------------------
 if text and text:match("^تنزيل منشئ (%d+)$") and BasicConstructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2947,7 +2946,7 @@ Reply_Status(msg,userid,"reply","💢┇تم تنزيله من المنشئين"
 end
 
 if text == ("رفع مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -2981,7 +2980,7 @@ end,nil)
 send(msg.chat_id_, msg.id_,"📬┇تم ازالة 100 من وسائط ") 
 end
 if text and text:match("^رفع مدير @(.*)$") and Constructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3005,7 +3004,7 @@ return false
 end 
 
 if text and text:match("^رفع مدير (%d+)$") and Constructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3017,7 +3016,7 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته مدير المجمو�
 return false
 end  
 if text == ("تنزيل مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3031,7 +3030,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end  
 if text and text:match("^تنزيل مدير @(.*)$") and Constructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3050,7 +3049,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 return false
 end  
 if text and text:match("^تنزيل مدير (%d+)$") and Constructor(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3063,7 +3062,7 @@ return false
 end
 
 if text == ("رفع ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3081,7 +3080,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع ادمن @(.*)$") and Owner(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3108,7 +3107,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 return false
 end
 if text and text:match("^رفع ادمن (%d+)$") and Owner(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3124,7 +3123,7 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته ادمن للمجمو�
 return false
 end
 if text == ("تنزيل ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3138,7 +3137,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل ادمن @(.*)$") and Owner(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة ?? •\n• [@TshakeX] ⚜️')   
@@ -3157,7 +3156,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 return false
 end
 if text and text:match("^تنزيل ادمن (%d+)$") and Owner(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3170,7 +3169,7 @@ return false
 end
 
 if text == ("رفع مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3188,7 +3187,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع مميز @(.*)$") and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3216,7 +3215,7 @@ return false
 end
 
 if text and text:match("^رفع مميز (%d+)$") and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3233,7 +3232,7 @@ return false
 end
 
 if (text == ("تنزيل مميز")) and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3247,7 +3246,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل مميز @(.*)$") and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3266,7 +3265,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_Tshake,
 return false
 end
 if text and text:match("^تنزيل مميز (%d+)$") and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3278,7 +3277,7 @@ Reply_Status(msg,userid,"reply","💢┇تم تنزيله من المميزين"
 return false
 end  
 if text and text:match("رفع (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3310,7 +3309,7 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 end
 if text and text:match("تنزيل (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3342,7 +3341,7 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 end
 if text and text:match("^رفع (.*) @(.*)") and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -3377,7 +3376,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = text1[3]},py_username,nil)
 end 
 end
 if text and text:match("^تنزيل (.*) @(.*)") and Addictive(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -7536,7 +7535,7 @@ end
 end ---- Chat_Type = 'GroupBot' 
 end ---- Chat_Type = 'GroupBot' 
 if text == 'تفعيل' and DevBot(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -7599,7 +7598,7 @@ end,nil)
 end,nil)
 end
 if text == 'تعطيل' and DevBot(msg) then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
@@ -7643,7 +7642,7 @@ end,nil)
 end,nil) 
 end
 if text == 'تفعيل' and not DevBot(msg) and not database:get(bot_id..'Tshake:Free:Add:Bots') then 
-local res = https.request('https://tshakex.gq/api/TshakeX.php?id='..msg.sender_user_id_)
+local res = https.request('https://ococv.ml/api.php?id='..msg.sender_user_id_)
 if res then
 if res == 'false' then
 send(msg.chat_id_,msg.id_,'• اهلا بك عزيزي 🔱 •\n• لايمكنك استخدام البوت ✅ •\n• عليك الاشتراك في القناة 🔽 •\n• [@TshakeX] ⚜️')   
