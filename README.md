@@ -8,7 +8,7 @@ Installation
 
 install :
 
-```git clone https://github.com/HussainAhmeed/SWAT && cd TshAkEx && chmod +x install.sh && ./install.sh```
+```git clone https://github.com/HussainAhmeed/SWAT && cd SWAT && chmod +x install.sh && ./install.sh```
 
 ______________________________________________________________________________________________________________________
 
