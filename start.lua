@@ -74,12 +74,12 @@ os.execute('lua start.lua')
 end
 local function Files_Tshake_Info()
 Create_Info(database:get(Server_Tshake.."Token_Tshake"),database:get(Server_Tshake.."Id_Tshake"),database:get(Server_Tshake.."UserName_Tshake"))   
-local RunTshake = io.open("Tshake", 'w')
+local RunTshake = io.open("SWAT", 'w')
 RunTshake:write([[
 #!/usr/bin/env bash
 cd $HOME/SWAT
 token="]]..database:get(Server_Tshake.."Token_Tshake")..[["
-rm -fr Tshake.lua
+rm -fr SWAT.lua
 wget "https://raw.githubusercontent.com/HussainAhmeed/SWAT/master/SWAT.lua"
 while(true) do
 rm -fr ../.telegram-cli
@@ -94,7 +94,7 @@ cd $HOME/SWAT
 while(true) do
 rm -fr ../.telegram-cli
 screen -S SWAT -X kill
-screen -S SWAT ./Tshake
+screen -S SWAT ./SWAT
 done
 ]])
 RunTs:close()
